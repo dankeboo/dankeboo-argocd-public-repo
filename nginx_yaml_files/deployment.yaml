@@ -4,12 +4,6 @@ metadata:
   labels:
     app: nginx
   name: nginx-deployment
-<<<<<<< HEAD
-  spec:
-    replicas: 5
-    selector:
-      matchLabels:
-=======
 spec:
   replicas: 1
   selector:
@@ -18,7 +12,6 @@ spec:
   template:
     metadata:
       labels:
->>>>>>> c7e45496beb5fbd25dd3561dfc1b46817c5f91d5
         app: nginx
     spec:
       containers:
